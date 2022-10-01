@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+    scroll-behavior: smooth;
+}
+nav{
+    height: 60px;
+    background-color: rgb(13, 67, 68);
+    padding-top: 20px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 5;
+}
+div{
+    background-color: white;
+}
+#logo{
+    color: white;
+    display:inline;
+    padding-top: 20px;
+    margin: 0px 0px 0px 70px;
+    font-size: 20px;
+}
+ul{
+    margin-left: 37%; 
+    display: inline;
+}
+ul a{
+    display: inline;
+    text-decoration: none;
+}
+ul li:hover{
+    text-decoration: none;
+    color: red;
+}
+ul p{
+    display: inline;
+    color: white;
+    font-size: 20px;
+}
+ul li, li+p{
+    list-style: none;
+    display: inline;
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+}
+#loginb{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+#loginb a{
+    color: white;
+}
+nav a{
+    text-decoration: none;
+}
+.space{
+    height: 60px;
+}
+
+#main{
+    margin: 50px;
+    height: 580px;
+}
+#main a{
+    text-decoration: none;
+}
+.b{
+    background-color:rgb(13, 67, 68);
+    width: 280px;
+    height: 45px;
+    border-radius: 10px;
+    display: inline;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    font-size: bold;
+    margin-bottom: 20px;
+}
+button+p{
+    text-align: center;
+    margin-top: 10px;
+}
+#table{
+    padding-top: 20px;
+    z-index: 2;
+}
+.edit{
+    background-color:rgb(112, 4, 4);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    display: inline;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    font-size: bold;
+    margin-bottom: 20px;
+}
+.drop{
+    background-color:rgb(0, 0, 109);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    display: inline;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    font-size: bold;
+    margin-bottom: 20px;
+}

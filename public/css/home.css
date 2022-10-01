@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+    scroll-behavior: smooth;
+}
+.pp{
+    color: red;
+    text-align: center;
+    font-size: 12px;
+}
+nav{
+    height: 60px;
+    background-color: rgb(13, 67, 68);
+    padding-top: 20px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 5;
+}
+div{
+    background-color: white;
+}
+#logo{
+    color: white;
+    display:inline;
+    padding-top: 20px;
+    margin: 0px 0px 0px 70px;
+    font-size: 20px;
+}
+ul{
+    margin-left: 37%; 
+    display: inline;
+}
+ul a{
+    display: inline;
+    text-decoration: none;
+}
+ul li:hover{
+    text-decoration: none;
+    color: red;
+}
+ul p{
+    display: inline;
+    color: white;
+    font-size: 20px;
+}
+ul li, li+p{
+    list-style: none;
+    display: inline;
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+}
+#loginb{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#loginb a{
+    color: white;
+    
+}
+nav a{
+    text-decoration: none;
+}
+#space{
+    height: 60px;
+}
+/*
+###############
+Main section
+###############
+*/
+.main img{
+    height: 580px;
+    width: 100%;
+    display: block;
+}
+.main p{
+    position: absolute;
+    top: 35%;
+    left: 31%;
+    color:white;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+/*
+###############
+about section
+###############
+*/
+.about{
+    margin-top: 80px;
+    height: 580px;
+    padding-top: 5%;
+}
+.about img{
+    width: 40%;
+    height: 85%;
+    display: inline;
+    float: left;
+    margin-left: 10%;
+}
+.about div{
+    width: 40%;
+    height: 85%;
+    background-color: rgb(241, 241, 226);
+    float: right;
+    text-align: center;
+    padding-top: 100px;
+    margin-right: 10%;
+}
+.about div h2{
+    margin-bottom: 60px;
+    color: black;
+}
+.about div + p{
+    text-align: center;
+}
+
+/*
+###############
+contact section
+###############
+*/
+
+.contact{
+    height: 580px;
+    margin-top: 120px;
+}
+#form{
+    height: 80%;
+    width:80%;
+    margin: auto;
+    background-color: rgb(241, 241, 226);
+    padding-top: 60px;
+}
+#form input, textarea{
+    display: block;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px black solid;
+    width: 75%;
+    background-color: rgb(241, 241, 226);
+}
+#form input{
+    height: 40px;
+}
+#form h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#form form{
+    margin-left: 20%;
+}
+#form button{
+    width: 75%;
+    height: 30px;
+    background-color: black;
+    color:white;
+    margin-top: 10px;
+    border: none;
+    
+}
